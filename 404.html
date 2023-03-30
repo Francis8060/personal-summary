@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/imgs/vuepress.png"><title>Fe Blog</title><meta name="description" content="原创前端技术blog，致力于分享前端开发经验">
+    <link rel="preload" href="/web/assets/style-7f35a179.css" as="style"><link rel="stylesheet" href="/web/assets/style-7f35a179.css">
+    <link rel="modulepreload" href="/web/assets/app-5bc85dea.js"><link rel="modulepreload" href="/web/assets/framework-5866ffd3.js"><link rel="modulepreload" href="/web/assets/404.html-87d54bd8.js"><link rel="modulepreload" href="/web/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/web/assets/index.html-995a53b0.js" as="script"><link rel="prefetch" href="/web/assets/share.html-931ee4c2.js" as="script"><link rel="prefetch" href="/web/assets/index.html-8afadd0f.js" as="script"><link rel="prefetch" href="/web/assets/base.html-3a0ea6bb.js" as="script"><link rel="prefetch" href="/web/assets/config.html-71cbc913.js" as="script"><link rel="prefetch" href="/web/assets/declare.html-cd107929.js" as="script"><link rel="prefetch" href="/web/assets/senior.html-66499e26.js" as="script"><link rel="prefetch" href="/web/assets/composition.html-9ea83a94.js" as="script"><link rel="prefetch" href="/web/assets/index.html-f7606e85.js" as="script"><link rel="prefetch" href="/web/assets/share.html-f0e90f14.js" as="script"><link rel="prefetch" href="/web/assets/index.html-097ac9a6.js" as="script"><link rel="prefetch" href="/web/assets/base.html-8f3cf8ca.js" as="script"><link rel="prefetch" href="/web/assets/config.html-ecffe837.js" as="script"><link rel="prefetch" href="/web/assets/declare.html-58c3c7f9.js" as="script"><link rel="prefetch" href="/web/assets/senior.html-5200ed9f.js" as="script"><link rel="prefetch" href="/web/assets/composition.html-27245b22.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/web/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/web/assets/app-5bc85dea.js" defer></script>
+  </body>
+</html>

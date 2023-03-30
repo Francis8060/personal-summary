@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as s,R as e,t as r}from"./framework-5866ffd3.js";const c={},o=e("h2",{id:"代码片段",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#代码片段","aria-hidden":"true"},"#"),r(" 代码片段")],-1),n=e("p",null,"测试github的CI",-1),_=[o,n];function d(h,i){return a(),s("div",null,_)}const f=t(c,[["render",d],["__file","share.html.vue"]]);export{f as default};
